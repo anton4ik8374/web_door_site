@@ -19,7 +19,6 @@
         "maatwebsite/excel": "^3.1"
     },
     "require-dev": {
-        "akrivc01/meta": "dev-master",
         "barryvdh/laravel-debugbar": "^3.2",
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",

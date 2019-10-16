@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c1d678f8-9ca5-412c-bf67-73de24cf51c9" name="web_door" url="http://p441726.ftp.ihc.ru">
+        <fileTransfer host="p441726.ftp.ihc.ru" port="22" rootFolder="/home/p441726/www/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
