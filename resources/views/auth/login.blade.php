@@ -43,8 +43,8 @@
                                     @csrf
                                     <div class="form-group">
                                         {{--<input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">--}}
-                                        <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="Login">
-                                        @error('name')
+                                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Email">
+                                        @error('email')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
                                         </span>
@@ -76,7 +76,6 @@
                                         <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
                                     </a>--}}
                                 </form>
-                                <hr>
                                 <div class="text-center">
                                     <a class="small" href="{{ route('password.request') }}">Forgot Password?</a>
                                 </div>

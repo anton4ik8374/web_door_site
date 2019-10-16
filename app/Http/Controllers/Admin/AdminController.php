@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Components\SuperComponent;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Role;
@@ -10,13 +11,17 @@ use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use App\Jobs\SendRegistrationMail;
 
+
+
+
 //use App\Mail\RegistrationMail;
 //use Illuminate\Support\Facades\Mail;
 
 class AdminController extends Controller
 {
-    public function index()
+    public function index(SuperComponent $component)
     {
+
         //SendRegistrationMail::dispatch();
         $styles = [
             '/css/css/sb-admin-2.min.css',

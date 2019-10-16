@@ -36,7 +36,7 @@
         <hr class="sidebar-divider my-0">
 
         <!-- Nav Item - Pages Collapse Menu -->
-        <li class="nav-item">
+        {{--<li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                 <i class="fas fa-fw fa-cog"></i>
                 <span>Components</span>
@@ -73,7 +73,7 @@
         <!-- Heading -->
         <div class="sidebar-heading">
             Addons
-        </div>
+        </div>--}}
 
         <!-- Nav Item - Pages Collapse Menu -->
         <li class="nav-item">

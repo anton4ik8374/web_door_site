@@ -38,7 +38,7 @@ class LoginController extends Controller
      */
     public function username()
     {
-        return 'name';
+        return 'email';
     }
     /**
      * Create a new controller instance.
