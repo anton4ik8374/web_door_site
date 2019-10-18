@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html  lang="en">
 <head>
-
+    <meta name="yandex-verification" content="c6b3a2e9b03ce44b" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="author" content="SemiColonWeb"/>
     <meta property="title" content="«Web_Door» | Ваш новый сайт уже готов">
     <meta property="description" content="Создание современных web приложений, ресурсов, сервисов.">
     <meta property="keywords" content="Создание современных web приложений, ресурсов, сервисов.">
     <meta property="og:title" content="«Web_Door» | Ваш новый сайт уже готов">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
+        ym(55869289, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/55869289" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121796055-1"></script>
     <script>
@@ -39,7 +52,7 @@
     <!-- End Google Tag Manager -->
     <!-- Stylesheets
     ============================================= -->
-    <link data-n-head="true" rel="icon" type="image/png" size="16" data-hid="favicon-16" href="/images/logo/logo4.png">
+    <link data-n-head="true" rel="icon" type="image/png" size="16" data-hid="favicon-16" href="https://web-door.net/images/logo/logo60x60_v2.png">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700,900|Playfair+Display:400,700"
           rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css')}}" type="text/css"/>
@@ -62,7 +75,7 @@
 
     <!-- Document Title
     ============================================= -->
-    <title>Resume | Web_door</title>
+    <title>Web_door &#9748;</title>
 
 </head>
 
