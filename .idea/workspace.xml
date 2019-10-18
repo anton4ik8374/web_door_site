@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6760c902-95d2-49ae-b488-22cb92ae9069" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,17 +17,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -52,7 +38,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/app/Facades/Super.php" />
         <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/app/Contracts/SuperContract.php" />
         <option value="$PROJECT_DIR$/app/Contracts/SuperContract.php" />
         <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/app/Contracts/SupContract.php" />
@@ -67,7 +52,6 @@
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/.env.testing" />
         <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/app/Mail/RegistrationMail.php" />
-        <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/resources/views/i.blade.php" />
         <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/app/Http/Controllers/UserController.php" />
         <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/tests/Feature/RegistrationTest.php" />
         <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/database/factories/UserFactory.php" />
@@ -103,6 +87,8 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/app/Providers/EventServiceProvider.php" />
         <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/app/Events/OrderShipped.php" />
+        <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/resources/views/i.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/i.blade.php" />
       </list>
     </option>
   </component>
@@ -122,17 +108,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,7 +119,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -185,6 +161,7 @@
       <workItem from="1567401777144" duration="98000" />
       <workItem from="1567403484592" duration="9133000" />
       <workItem from="1571153321675" duration="55344000" />
+      <workItem from="1571389874376" duration="523000" />
     </task>
     <task id="LOCAL-00001" summary="web_door all project">
       <created>1566973930812</created>
@@ -200,16 +177,23 @@
       <option name="project" value="LOCAL" />
       <updated>1571203852452</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="web_door all project 3">
+      <created>1571390212276</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571390212276</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125765000" />
+    <option name="totallyTimeSpent" value="126288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1380597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13965885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -225,7 +209,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Migrations" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.27867097" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.27867097" />
       <window_info anchor="bottom" id="File Transfer" order="13" weight="0.2647374" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -265,7 +249,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="web_door all project" />
     <MESSAGE value="web_door all project 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="web_door all project 2" />
+    <MESSAGE value="web_door all project 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="web_door all project 3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Mail/RegistrationMail.php">
@@ -348,6 +333,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/i.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="95" selection-start-line="8" selection-start-column="95" selection-end-line="8" selection-end-column="95" />
         </state>
       </provider>
     </entry>
