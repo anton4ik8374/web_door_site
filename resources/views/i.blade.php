@@ -4,6 +4,11 @@
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="author" content="SemiColonWeb"/>
+    <meta property="title" content="«Web_Door» | Ваш новый сайт уже готов">
+    <meta property="description" content="Создание современных web приложений, ресурсов, сервисов.">
+    <meta property="keywords" content="Создание современных web приложений, ресурсов, сервисов.">
+    <meta property="og:title" content="«Web_Door» | Ваш новый сайт уже готов">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121796055-1"></script>
     <script>
