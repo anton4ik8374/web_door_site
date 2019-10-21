@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6760c902-95d2-49ae-b488-22cb92ae9069" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+    <list default="true" id="6760c902-95d2-49ae-b488-22cb92ae9069" name="Default Changelist" comment="SEO">
+      <change afterPath="$PROJECT_DIR$/app/Events/ClearCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Events/OrderShipped.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/EventController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Listeners/SendEmailNotification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Listeners/SendShipmentNotification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Listeners/WarmUpCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Mail/LoginMail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/passport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/test/event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mails/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/i.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/i.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sberbanck.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sberbanck.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,39 +30,12 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/robots.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/sitemap.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/sitemap.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-end-line="6" />
+            <state relative-caret-position="187">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -77,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/app/Contracts/SupContract.php" />
         <option value="$PROJECT_DIR$/app/Contracts/SupContract.php" />
         <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/resources/views/auth/login.blade.php" />
         <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/app/Http/Requests/UserUpdata.php" />
@@ -123,11 +106,12 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/app/Providers/EventServiceProvider.php" />
         <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/app/Events/OrderShipped.php" />
-        <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/resources/views/i.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/i.blade.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/robots.txt" />
         <option value="$PROJECT_DIR$/public/sitemap.xml" />
+        <option value="&lt;c1d678f8-9ca5-412c-bf67-73de24cf51c9&gt;/web-door.net/resources/views/i.blade.php" />
+        <option value="&lt;7844c3f5-d43c-47f7-b762-1ba855ea6e08&gt;/web-door.net/resources/views/i.blade.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -146,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,16 +138,10 @@
               <item name="git" type="b2602c69:ProjectViewProjectNode" />
               <item name="git" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,7 +196,11 @@
       <workItem from="1571153321675" duration="55344000" />
       <workItem from="1571389874376" duration="523000" />
       <workItem from="1571390399006" duration="806000" />
-      <workItem from="1571412325680" duration="413000" />
+      <workItem from="1571412325680" duration="1688000" />
+      <workItem from="1571636228878" duration="64000" />
+      <workItem from="1571644380283" duration="34000" />
+      <workItem from="1571666884233" duration="1215000" />
+      <workItem from="1571669881149" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="web_door all project">
       <created>1566973930812</created>
@@ -254,17 +237,24 @@
       <option name="project" value="LOCAL" />
       <updated>1571390489399</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sitemap and robots">
+      <created>1571412758631</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571412758631</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127507000" />
+    <option name="totallyTimeSpent" value="130167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14285715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14925373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -280,8 +270,8 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Migrations" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.27867097" />
-      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.2647374" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.27867097" />
+      <window_info anchor="bottom" id="File Transfer" order="13" visible="true" weight="0.2636656" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -323,7 +313,9 @@
     <MESSAGE value="web_door all project 3" />
     <MESSAGE value="web_door all project 4" />
     <MESSAGE value="web_door all project 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="web_door all project 5" />
+    <MESSAGE value="sitemap and robots" />
+    <MESSAGE value="SEO" />
+    <option name="LAST_COMMIT_MESSAGE" value="SEO" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Mail/RegistrationMail.php">
@@ -416,23 +408,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/sitemap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
+        <state relative-caret-position="806">
           <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
@@ -440,7 +418,21 @@
     <entry file="file://$PROJECT_DIR$/public/sitemap.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
