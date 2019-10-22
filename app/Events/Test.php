@@ -2,7 +2,6 @@
 
 namespace App\Events;
 
-use App\Models\Menu;
 use Illuminate\Broadcasting\Channel;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Broadcasting\PrivateChannel;
@@ -11,20 +10,25 @@ use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 
-class OrderShipped
+class Test
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
-
-    public $menu;
 
     /**
      * Create a new event instance.
      *
      * @return void
+     *
      */
-    public function __construct(Menu $menu)
+
+    public $name;
+
+    public $surName;
+
+    public function __construct($name,$surName)
     {
-        $this->menu = $menu;
+        $this->name = $name;
+        $this->surName = $surName;
     }
 
     /**

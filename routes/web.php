@@ -22,6 +22,7 @@
     Route::get('/ya', function () {
         return view('ya');
     });
+    Route::get('/event', 'EventController@index');
 #end tester
     Route::get('/', function () {
         return view('i');

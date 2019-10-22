@@ -2,14 +2,11 @@
 
 namespace App\Listeners;
 
-use Illuminate\Auth\Events\Login;
+use App\Events\Test;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use App\Mail\LoginMail;
-use Mail;
 
-
-class SendEmailNotification
+class RunTest
 {
     /**
      * Create the event listener.
@@ -24,15 +21,11 @@ class SendEmailNotification
     /**
      * Handle the event.
      *
-     * @param  Login  $event
+     * @param  Test  $event
      * @return void
      */
-    public function handle(Login $event)
+    public function handle(Test $event)
     {
-        $email = $event->user->email;
-        $username = $event->user->name;
-
-        Mail::send(new LoginMail($username,$email));
-
+        dump($event->name,$event->surName);
     }
 }
